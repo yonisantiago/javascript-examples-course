@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Discounts and Percentages </title>
+</head>
+<body>
+    
+    <header class="container">
+        <h1>Discounts and Percentages</h1>
+        <p>Calculating discount with Platzi Courses</p>
+    </header>
+
+    <section class="container">
+        <h2>Calculating Discount</h2>
+        <form class="form-container">
+            <label for="InputPrice">Product Price:</label>
+            <input type="number" name="InputPrice" id="InputPrice" placeholder="Price">
+            
+            <label for="discount">Discount:</label>
+            <input type="number" name="discount" id="discount" placeholder="Discount">
+    
+            <button type="button" onclick="onClickButtonPriceDiscount()"> Calculate price with discount</button>
+            
+            <p id="resultPrice"></p>
+
+        </form>
+
+    </section>
+    <section class="container">
+        <h3>Calculating price with coupons discount</h3>
+        <form class="form-container">
+            <label for="InputPriceCoupon">Product Price:</label>
+            <input type="number" name="InputPriceCoupon" id="InputPriceCoupon" placeholder="Price">
+
+            <label for="InputCoupon"> Have a Coupon?</label>
+            <input id="InputCoupon" type="text" />
+    
+            <button type="button" onclick="onClickButtonPriceCoupon()"> Calculate price with coupon</button>
+            
+            <p id="resultPriceCoupon"></p>
+            <p> Try these coupon codes: 5OFF, 10OFF, 20OFF</p>
+    </section>
+    <script src="/discounts.js"></script>
+
+</body>
+</html>

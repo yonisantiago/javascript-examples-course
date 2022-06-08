@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>USA Overtime calculator</title>
+
+</head>
+<body>
+<div class="container">
+    <h1>USA Overtime Calculator</h1>
+    <p>Calculate the overtime pay after 40h of work</p>
+    <form class="container form-container" >
+        <label for="hours">Hours worked:</label>
+        <input type="number" name="hours" id="hoursInput"  >
+        
+        <label for="rate">Rate:</label>
+        <input type="number" name="rate" id="rateInput"  >
+        
+        <button type="button" onclick="onClickOvertime()">Calculate overtime pay</button>
+        <div class="form-container">
+            
+        <p class="overtime-pay" id="resultText">  </p>
+        <p class="overtime-pay" id="totalPay"></p>
+        </div>
+    </form>
+    
+</div>
+    
+    <script src="/overtimeCalculator.js"></script>
+</body>
+</html>

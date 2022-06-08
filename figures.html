@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Geometric Figures</title>
+</head>
+<body >
+    <header class="container">
+        <h1>Geometric Figures</h1>
+        <p>First practical JS Course in platzi</p>
+    </header>
+
+    <section class="container">
+        <h2>Calculate area and perimeter of a square</h2>
+        <form class="form-container">
+            <label for="SquareSide">Type each side of the square:</label>
+            <input type="number" name="SquareSide" id="SquareSide" />
+            <button type="button" onclick="calculateSquarePerimeter()">Calculate perimeter</button>
+            <button type="button" onclick="calculateSquareArea()">Calculate Area</button>
+        </form>
+    </section>
+    <section class="container">
+        <h2>Calculate area and perimeter of a triangle</h2>
+        <form class="form-container">
+            <label for="TriangleBase">Type the base of the triangle:</label>
+            <input type="number" name="TriangleBase" id="TriangleBase" required/>
+            <label for="TriangleIsocelesHeight">Side 1</label>
+            <input type="number" name="Side1" id="Side1" required/>
+            <label for="TriangleIsocelesHeight"> Side 2</label>
+            <input type="number" name="Side2" id="Side2" required/>
+            <label for="TriangleHeight">Type the height of the triangle:</label>
+            <input type="number" name="TriangleHeight" id="TriangleHeight" required/>
+            <button type="button" onclick="calculateTrianglePerimeter()">Calculate perimeter</button>
+            <button type="button" onclick="calculateTriangleArea()">Calculate Area</button>
+            <button type="button" onclick="calculateTriangleIsocelesHeight()">Calculate Triangle Isoceles Height</button>
+        </form>
+    </section>
+    <section class="container">
+        <h2>Calculate area and perimeter of a circle</h2>
+        <form class="form-container">
+            <label for="CircleRadius">Type the radius of the circle:</label>
+            <input type="number" name="CircleRadius" id="CircleRadius" required/>
+            <button type="button" onclick="calculateCirclePerimeter()">Calculate perimeter</button>
+            <button type="button" onclick="calculateCircleArea()">Calculate Area</button>
+        </form>
+
+    <script src="./calculate-geometric-figures.js"></script>
+</body>
+</html>

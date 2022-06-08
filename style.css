@@ -1,0 +1,95 @@
+/*Google Fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+/* General Styles */
+body {
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.5;
+}
+/*Container with centered elements */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+/*Form with blue background and white button */
+.form-container {
+  background-color: #2196F3;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 20px;
+  width: 400px;
+}
+.overtime-pay {
+    font-size: 20px;
+    font-weight: bold;
+    color: aquamarine;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.form-container input {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-size: 1.6em;
+    margin-bottom: 0.8em;
+    width: 100%;
+}
+
+.form-container button {
+    border: none;
+    background-color: white;
+    color: #2196F3;
+    font-size: 1.6em;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form-container button:hover {
+    background-color: #e2e2e2;
+    color: #2196f3;
+}
+
+/*Label font color*/
+.form-container label {
+  color: white;
+  margin-bottom: 0.5em;
+  
+}
+/*Label placeholder color */
+.form-container input::-webkit-input-placeholder {
+  color: rgba(242, 242, 242, 0.831);
+  font-weight: 300;
+}
+/*Form button white background and blue text*/
+
+/* Nav Card style */
+.nav-card {
+  background-color: #2196F3;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 20px;
+  width: 400px;
+}
+.nav-card li {
+  color: white;
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
+}
+.nav-card a {
+  color: white;
+  
+}
